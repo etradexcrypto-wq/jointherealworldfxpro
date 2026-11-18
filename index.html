@@ -94,8 +94,6 @@
     </script>
 <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
 <link href="images/webclip.png" rel="apple-touch-icon"/>
-
-
 <style>
       .alertify-notifier .ajs-message.ajs-visible {
         padding: 0 !important;
@@ -152,8 +150,14 @@
       }
     </style>
 <!--  [Attributes by Finsweet] CMS Load  -->
-
-</head>
+<style>
+.hero-video-shell { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #050505; }
+.hero-video-poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hero-video-play { position: absolute; inset: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; border: 0; padding: 0; background: rgba(0,0,0,.26); cursor: pointer; }
+.hero-video-play:hover, .hero-video-play:focus-visible { background: rgba(0,0,0,.12); }
+.hero-video-play img { width: 72px; height: 72px; }
+.hero-video-frame { position: absolute; inset: 0; width: 100%; height: 100%; display: block; border: 0; }
+</style></head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <!-- End Google Tag Manager (noscript) -->
@@ -400,7 +404,6 @@ a,
                     ">
 <div class="button-text big nav">Start learning</div>
 </a>
-
 </div>
 </div>
 </div>
@@ -430,8 +433,11 @@ a,
 </div>
 </div>
 </div>
-
-<div class="margin-top margin-large">
+<div class="margin-top margin-top-custom-1 align-center round">
+<div class="rw-hero_video-wrapper" id="video-container">
+<div class="hero-video-shell"><iframe allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true" class="hero-video-frame" frameborder="0" loading="eager" src="https://customer-29d3r31yjz332bf4.cloudflarestream.com/fc9bf6e00fb297a9a676c5f45ca417dd/iframe?muted=true&amp;autoplay=true&amp;poster=https%3A%2F%2Fcustomer-29d3r31yjz332bf4.cloudflarestream.com%2Ffc9bf6e00fb297a9a676c5f45ca417dd%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" title="The Real World Finex introduction video"></iframe></div>
+</div>
+</div><div class="margin-top margin-large">
 <a class="button big checkout-btn w-inline-block" data-w-id="ed59f5f5-c353-8a63-c2c4-f612761345ae" href="https://app.jointherealworldfxpro.com/" style="
                         -webkit-transform: translate3d(0, 0, 0)
                           scale3d(1, 1, null) rotateX(0) rotateY(0) rotateZ(0)
@@ -446,7 +452,6 @@ a,
                       ">
 <div class="button-text big">Explore investing education</div>
 </a>
-
 </div>
 <img alt="" class="rw-hero_arrow" data-w-id="7951d949-64a1-f551-5bcc-421f48fbfda3" decoding="async" loading="lazy" src="images/Vector-1.webp" width="35.5"/><img alt="" class="rw-hero_arrow-2" data-w-id="00f6bff1-7e71-fcb1-a781-228aad06e1a4" decoding="async" loading="lazy" src="images/Vector.webp" width="35"/>
 </div>
@@ -664,7 +669,6 @@ a,
                       ">
 <div class="button-text big">Start learning</div>
 </a>
-
 </div>
 </div>
 </div>
@@ -738,7 +742,6 @@ a,
 <a class="button big checkout-btn w-inline-block" data-w-id="945a782f-b0c7-247b-26e6-c8e78f81aa3f" href="https://app.jointherealworldfxpro.com/">
 <div class="button-text big">The Real World Finex</div>
 </a>
-
 </div>
 </div>
 </div>
@@ -1280,7 +1283,6 @@ a,
                       ">
 <div class="button-text big">Start learning</div>
 </a>
-
 </div>
 </div>
 </div>
@@ -2796,6 +2798,5 @@ window.smartsupp||(function(d) {
 </script>
 <noscript>Powered by <a href="https://www.smartsupp.com" target="_blank">Smartsupp</a></noscript>
 <div id="trw-react-enhancements"></div>
-
 </body>
 </html>
